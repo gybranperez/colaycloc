@@ -1,0 +1,193 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ie-box-sizing: border-box;
+}
+body{
+	padding: 0 2%;
+
+}
+header{
+	display: block;
+	padding: 10px 5px;
+	padding-top: 1%;
+	width: 100%;
+	background: url(https://i.ibb.co/Y0b9LZL/cabeza.png) no-repeat center top ;
+	-webkit-background-size: cover;
+	background-size: cover;
+
+}
+#headerimg{
+	width: 40%;
+	margin: auto;
+	margin-left: 30%;
+	padding: 3%;
+	background: rgb(255,255,255);
+	border-left: 70px solid #9253C4;
+	border-right: 70px solid #9253C4;
+}
+.quitarfondo{
+	width: 12%;
+	margin: auto;
+	margin-left: 44%;
+	margin-bottom: 4%;
+	background: rgba(0,0,0,0);
+}
+#slogan{
+	display: block;
+	width: 60%;
+	margin: auto;
+	padding: 2%;
+	background: rgb(255,255,255);
+	text-align: center;
+	color: #9253C4;
+	font-size: 2em;
+	font-family: arial;
+	border-left: 70px solid #9253C4;
+	border-right: 70px solid #9253C4;
+}
+nav{
+	display: block;
+}
+nav>ul{
+	display: block;
+	margin: auto;
+	padding-left: 2%;
+}
+nav>ul>li{
+	display: inline-block;
+	width: 24%;
+	padding: 1%;
+	background: #FFF1D7;
+	color: #BF3376;
+	list-style: none;
+	text-align: center;
+	border-bottom: 5px solid #BF3376;
+}
+nav>ul>li>a{
+	text-decoration: none;
+	background: #FFF1D7;
+	color: #BF3376;
+	text-align: center;
+	font-size: 1.3em;
+	font-family: arial;
+	display: block;
+
+}
+section{
+	display: inline-block;
+	width: 65%;
+	background: #8BAA05;
+	
+}
+aside{
+	display: inline-block;
+	width: 34%;
+	background: #BF3376;
+}
+#main, #dos{
+	color: white;
+	padding: 1%;
+	text-align: center;
+	font-family: arial;
+	vertical-align: top;
+	margin-top: .5%;
+	height: 350px
+
+}
+#contacto{
+	display: block;
+	width: 100%;
+	background: #207773;
+	text-align: center;
+	color: white;
+	font-family: arial;
+	padding:20px 10px;
+}
+.conocenosMain, .conocenosAside{
+	color: white;
+	padding: 1%;
+	text-align: center;
+	font-family: arial;
+	vertical-align: top;
+	margin-top: .5%;
+	height: 530px;
+}
+#petConocenos,#alinear{
+	display: inline-block;
+	vertical-align: top;
+	width: 60%;
+}
+#alinear{
+	width: 30%;
+	margin-right: 5%;
+	margin-left: 2%;
+}
+
+#anuncios{
+	display: block;
+	width: 100%;
+	padding: 1%;
+	background: #FFCE00;
+	color: #7C3EB7;
+	text-align: center;
+	font-family: arial;
+	font-size: 1.4em;
+
+}
+.anunciosimg{
+	display: inline-block;
+	width: 30%;
+	height: 300px;
+	vertical-align: top;
+	margin:5px 0 ;
+}
+.anunciosimg2{
+	display: inline-block;
+	width: 44%;
+	height: 400px;
+	vertical-align: top;
+	margin:5px 0 ;
+}
+footer{
+	display: block;
+	padding: 2%;
+	font-size: 1.3em;
+	font-family: arial;
+	background: #7C3EB7;
+	text-align: center;
+	color: white;
+	margin-top: .5%;
+}
+#cont{
+	background: #2EAAA4;
+}
+#loca{
+	height: 1.3em;
+}
+
+/*
+colores logo
+
+rosa claro: 	BF3376
+rosa oscuro: 	9B2764
+azul claro: 	40D3CF
+azul medio: 	2EAAA4
+murado: 		9253C4
+murado oscuro: 	7C3EB7
+verdelogo : 	AAD609
+verdeclaro: 	D1F2A5
+verdepistache: 	BBCE8A
+amarilliclaro: 	FFCE00
+amarillifuerte: D8B009
+huesoclaro: 	FFF1D7
+huesofuerte: 	EAD8BB
+pancitaclaro: 	EFB381
+pancitafuerte: 	CC9164
+ojos: 			FF9F80
+
+
+*/
